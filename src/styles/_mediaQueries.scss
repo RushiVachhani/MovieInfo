@@ -1,0 +1,12 @@
+@media(min-width: 700px) {
+    #movies {
+        .col-sm-3 {
+            .well {
+                height: 390px;
+            }
+            img {
+                height: 240px;
+            }
+        }
+    }
+}
