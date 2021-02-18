@@ -1,14 +1,27 @@
 @media (min-width: 700px) {
-  #movies .col-md-3 .well {
+  #movies .col-sm-3 .well {
     height: 390px;
   }
-  #movies .col-md-3 img {
+  #movies .col-sm-3 img {
     height: 240px;
   }
 }
-
 #movies img, #movie img {
   width: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin-right: 10px;
+}
+footer .footer-content {
+  opacity: 0.75;
+  padding: 5px;
+}
+footer .heart {
+  color: #e25555;
 }
 
 /*# sourceMappingURL=style.css.map */
